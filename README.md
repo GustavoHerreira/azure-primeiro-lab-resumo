@@ -27,14 +27,13 @@ A tabela abaixo conecta os conceitos teóricos com as ações práticas que exec
 | **Contêineres e Orquestração** | Instalei o **Docker** e o **Docker Compose** na instância EC2 para rodar tanto a API quanto o banco de dados PostgreSQL de forma isolada e consistente, exatamente como no meu ambiente de desenvolvimento. |
 | **Modelo de Custo (OpEx)** | Todo o projeto foi implementado utilizando o **Nível Gratuito da AWS (Free Tier)**, o que reforça na prática o **modelo de OpEx**, permitindo iniciar um projeto com custo ZERO. |
 
-## 🔗 3. Projeto no Ar!
+## 🏛️ 3. Projeto em Produção (Histórico)
 
-A API está em execução na nuvem e pode ser acessada publicamente através da documentação interativa do Swagger.
+A API esteve em execução na nuvem (AWS EC2) e ficou acessível publicamente através do Swagger.  
+Atualmente, a instância foi desligada para evitar custos, mas você pode visualizar como a aplicação rodava através do **Web Archive**:
 
-> **Clique no link abaixo para testar a API ao vivo:**
-> 
-> ### **[http://18.117.216.57/swagger/index.html](http://18.117.216.57/swagger/index.html)**
+> ### 🌐 [Ver API no Web Archive](https://web.archive.org/web/20240825000000/http://18.117.216.57/swagger/index.html)
 
 Código fonte do projeto disponível em: https://github.com/GustavoHerreira/car-rental-api
 
-*(Observação: A aplicação roda em uma instância `t2.micro` do nível gratuito. A primeira requisição pode levar alguns segundos para ser respondida.)*
+*(Observação: O projeto foi hospedado em uma instância `t2.micro` do nível gratuito. Atualmente, o servidor não está mais ativo — apenas o registro no Web Archive está disponível.)*
